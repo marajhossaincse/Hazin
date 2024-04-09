@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE48ADFB2BC5897A00F11775 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48ADFA2BC5897A00F11775 /* Typealiases.swift */; };
+		CE48ADFD2BC5898A00F11775 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48ADFC2BC5898A00F11775 /* Constants.swift */; };
+		CE48ADFF2BC5899A00F11775 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48ADFE2BC5899A00F11775 /* Enums.swift */; };
+		CE48AE042BC589FA00F11775 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48AE032BC589FA00F11775 /* HomeView.swift */; };
 		CEAEC4262BC44BD9003F95C5 /* HazinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEC4252BC44BD9003F95C5 /* HazinApp.swift */; };
 		CEAEC4282BC44BD9003F95C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEC4272BC44BD9003F95C5 /* ContentView.swift */; };
 		CEAEC42A2BC44BDE003F95C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEC4292BC44BDE003F95C5 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE48ADFA2BC5897A00F11775 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
+		CE48ADFC2BC5898A00F11775 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE48ADFE2BC5899A00F11775 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		CE48AE032BC589FA00F11775 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CEAEC4222BC44BD9003F95C5 /* Hazin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hazin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAEC4252BC44BD9003F95C5 /* HazinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HazinApp.swift; sourceTree = "<group>"; };
 		CEAEC4272BC44BD9003F95C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE48ADF52BC588F700F11775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE48AE052BC58A1400F11775 /* Components */,
+				CE48AE022BC589D900F11775 /* MainViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE48ADF62BC5891100F11775 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE48ADF72BC5891C00F11775 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE48ADF82BC5893500F11775 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CE48ADFA2BC5897A00F11775 /* Typealiases.swift */,
+				CE48ADFC2BC5898A00F11775 /* Constants.swift */,
+				CE48ADFE2BC5899A00F11775 /* Enums.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		CE48ADF92BC5893B00F11775 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEC4252BC44BD9003F95C5 /* HazinApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CE48AE022BC589D900F11775 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				CE48AE032BC589FA00F11775 /* HomeView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		CE48AE052BC58A1400F11775 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		CEAEC4192BC44BD9003F95C5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +115,12 @@
 		CEAEC4242BC44BD9003F95C5 /* Hazin */ = {
 			isa = PBXGroup;
 			children = (
-				CEAEC4252BC44BD9003F95C5 /* HazinApp.swift */,
+				CE48ADF92BC5893B00F11775 /* Application */,
 				CEAEC4272BC44BD9003F95C5 /* ContentView.swift */,
+				CE48ADF82BC5893500F11775 /* Support */,
+				CE48ADF72BC5891C00F11775 /* Models */,
+				CE48ADF62BC5891100F11775 /* ViewModels */,
+				CE48ADF52BC588F700F11775 /* Views */,
 				CEAEC4292BC44BDE003F95C5 /* Assets.xcassets */,
 				CEAEC42B2BC44BDE003F95C5 /* Preview Content */,
 			);
@@ -139,6 +207,10 @@
 			files = (
 				CEAEC4282BC44BD9003F95C5 /* ContentView.swift in Sources */,
 				CEAEC4262BC44BD9003F95C5 /* HazinApp.swift in Sources */,
+				CE48ADFF2BC5899A00F11775 /* Enums.swift in Sources */,
+				CE48AE042BC589FA00F11775 /* HomeView.swift in Sources */,
+				CE48ADFB2BC5897A00F11775 /* Typealiases.swift in Sources */,
+				CE48ADFD2BC5898A00F11775 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
