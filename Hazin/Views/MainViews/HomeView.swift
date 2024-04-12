@@ -9,8 +9,16 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Hazin")
-        Text("Where comfort meets style.")
+        ZStack{
+            Color.white.edgesIgnoringSafeArea(.all)
+            ZStack{
+                
+            }
+            .frame(maxWidth: .infinity)
+            .overlay {
+                
+            }
+        }
     }
 }
 
