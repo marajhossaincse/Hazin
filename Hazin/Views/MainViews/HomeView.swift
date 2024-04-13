@@ -9,15 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack{
+        ZStack {
             Color.white.edgesIgnoringSafeArea(.all)
-            ZStack{
-                
-            }
-            .frame(maxWidth: .infinity)
-            .overlay {
-                
-            }
+            ZStack {}
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .overlay(alignment: .top) {
+                    HeaderView {} cartAction: {}
+                }
         }
     }
 }
