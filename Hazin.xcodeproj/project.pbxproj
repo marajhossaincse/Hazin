@@ -16,6 +16,7 @@
 		CEAEC4282BC44BD9003F95C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEC4272BC44BD9003F95C5 /* ContentView.swift */; };
 		CEAEC42A2BC44BDE003F95C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEC4292BC44BDE003F95C5 /* Assets.xcassets */; };
 		CEAEC42D2BC44BDE003F95C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEC42C2BC44BDE003F95C5 /* Preview Assets.xcassets */; };
+		CEF38B5A2BCEBCF0006CF75A /* TenorSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEF38B592BCEBCF0006CF75A /* TenorSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		CEAEC4272BC44BD9003F95C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEAEC4292BC44BDE003F95C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAEC42C2BC44BDE003F95C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF38B592BCEBCF0006CF75A /* TenorSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TenorSans-Regular.ttf"; sourceTree = "<group>"; };
+		CEF38B5B2BCEBD7F006CF75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		CEAEC4242BC44BD9003F95C5 /* Hazin */ = {
 			isa = PBXGroup;
 			children = (
+				CEF38B5B2BCEBD7F006CF75A /* Info.plist */,
+				CEF38B582BCEBCDF006CF75A /* Fonts */,
 				CE48ADF92BC5893B00F11775 /* Application */,
 				CEAEC4272BC44BD9003F95C5 /* ContentView.swift */,
 				CE48ADF82BC5893500F11775 /* Support */,
@@ -136,6 +141,14 @@
 				CEAEC42C2BC44BDE003F95C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEF38B582BCEBCDF006CF75A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEF38B592BCEBCF0006CF75A /* TenorSans-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF38B5A2BCEBCF0006CF75A /* TenorSans-Regular.ttf in Resources */,
 				CEAEC42D2BC44BDE003F95C5 /* Preview Assets.xcassets in Resources */,
 				CEAEC42A2BC44BDE003F95C5 /* Assets.xcassets in Resources */,
 			);
@@ -346,6 +360,7 @@
 				DEVELOPMENT_TEAM = U6ZR7ZT3Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hazin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +390,7 @@
 				DEVELOPMENT_TEAM = U6ZR7ZT3Y7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hazin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
