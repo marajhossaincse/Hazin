@@ -18,6 +18,21 @@ struct HomeView: View {
                 }
         }
     }
+    
+    @ViewBuilder
+    private func HeroImageView() -> some View {}
+    
+    @ViewBuilder
+    private func NewArrivalView() -> some View {}
+    
+    @ViewBuilder
+    private func CollectionsView() -> some View {}
+    
+    @ViewBuilder
+    private func SideMenu() -> some View {}
+    
+    @ViewBuilder
+    private func SideCart() -> some View {}
 }
 
 struct HomeView_Previews: PreviewProvider {
