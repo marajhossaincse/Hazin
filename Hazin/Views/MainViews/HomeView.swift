@@ -54,7 +54,20 @@ struct HomeView: View {
     
     @ViewBuilder
     private func NewArrivalView() -> some View {
+        Text("New Arrival")
+            .font(Font.custom("Tenor Sans", size: 28))
+            .multilineTextAlignment(.center)
+            .foregroundColor(.black)
+            .frame(width: 225, height: 32, alignment: .top)
+            .padding(.top, 25)
         
+        Image("Divider")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 140)
+            .padding(.top, 10)
+        
+        VStack{}
     }
     
     @ViewBuilder
