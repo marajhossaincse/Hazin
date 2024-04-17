@@ -11,7 +11,8 @@ import SwiftUI
 struct HazinApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HomeView()
         }
     }
 }

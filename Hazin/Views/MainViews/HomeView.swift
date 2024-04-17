@@ -15,8 +15,11 @@ struct HomeView: View {
                 VStack(spacing: 0) {
                     ScrollView(.vertical) {
                         HeroImageView()
+                        NewArrivalView()
                     }
+                    .edgesIgnoringSafeArea(.all)
                 }
+                .padding(.top, 56)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .overlay(alignment: .top) {
@@ -42,15 +45,17 @@ struct HomeView: View {
                         .font(Font.custom("Tenor Sans", size: 20))
                         .foregroundColor(.white)
                 }
-                .frame(width: 253, height: 40)
-                .tint(.black.opacity(0.4))
-                .offset(.init(width: 0, height: 250))
             }
+            .frame(width: 253, height: 40)
+            .tint(.black.opacity(0.4))
+            .offset(.init(width: 0, height: 250))
         }
     }
     
     @ViewBuilder
-    private func NewArrivalView() -> some View {}
+    private func NewArrivalView() -> some View {
+        
+    }
     
     @ViewBuilder
     private func CollectionsView() -> some View {}
