@@ -8,6 +8,16 @@
 import SwiftUI
 
 struct HomeView: View {
+    private var categories = [
+        Categories.All.rawValue,
+        Categories.Apparel.rawValue,
+        Categories.Dress.rawValue,
+        Categories.TShirt.rawValue,
+        Categories.Bag.rawValue
+    ]
+    
+    @State private var selectedCategory: Int = 0
+    
     var body: some View {
         ZStack {
             Color.white.edgesIgnoringSafeArea(.all)
@@ -67,7 +77,7 @@ struct HomeView: View {
             .frame(width: 140)
             .padding(.top, 10)
         
-        VStack{}
+        VStack {}
     }
     
     @ViewBuilder
