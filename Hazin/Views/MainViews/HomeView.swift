@@ -77,7 +77,19 @@ struct HomeView: View {
             .frame(width: 140)
             .padding(.top, 10)
         
-        VStack {}
+        VStack {
+            HStack(spacing: 20) {
+                ForEach(0 ..< categories.count, id: \.self) { category in
+                    CategoryView(
+                        isSelected: category == selectedCategory,
+                        title: categories[category]
+                    )
+                    .onTapGesture {
+                        selectedCategory = category
+                    }
+                }
+            }
+        }
     }
     
     @ViewBuilder

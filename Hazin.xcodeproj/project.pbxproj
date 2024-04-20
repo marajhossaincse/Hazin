@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE0522B52BD0F25500A7C182 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0522B42BD0F25500A7C182 /* Product.swift */; };
+		CE2A1A2B2BD3FB3500423568 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A1A2A2BD3FB3500423568 /* CategoryView.swift */; };
 		CE45F1712BC97680000B430E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE45F1702BC97680000B430E /* HeaderView.swift */; };
 		CE48ADFB2BC5897A00F11775 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48ADFA2BC5897A00F11775 /* Typealiases.swift */; };
 		CE48ADFD2BC5898A00F11775 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE48ADFC2BC5898A00F11775 /* Constants.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE0522B42BD0F25500A7C182 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CE2A1A2A2BD3FB3500423568 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		CE45F1702BC97680000B430E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		CE48ADFA2BC5897A00F11775 /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		CE48ADFC2BC5898A00F11775 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				CE45F1702BC97680000B430E /* HeaderView.swift */,
+				CE2A1A2A2BD3FB3500423568 /* CategoryView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				CEAEC4262BC44BD9003F95C5 /* HazinApp.swift in Sources */,
 				CE0522B52BD0F25500A7C182 /* Product.swift in Sources */,
 				CE48ADFF2BC5899A00F11775 /* Enums.swift in Sources */,
+				CE2A1A2B2BD3FB3500423568 /* CategoryView.swift in Sources */,
 				CE9DA2A92BCFA85800D4E978 /* Extensions.swift in Sources */,
 				CE48AE042BC589FA00F11775 /* HomeView.swift in Sources */,
 				CE48ADFB2BC5897A00F11775 /* Typealiases.swift in Sources */,
