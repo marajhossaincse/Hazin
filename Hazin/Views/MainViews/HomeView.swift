@@ -26,6 +26,7 @@ struct HomeView: View {
                     ScrollView(.vertical) {
                         HeroImageView()
                         NewArrivalView()
+                        Spacer()
                     }
                     .edgesIgnoringSafeArea(.all)
                 }
@@ -89,6 +90,7 @@ struct HomeView: View {
                     }
                 }
             }
+            .frame(maxWidth: .infinity)
         }
     }
     
