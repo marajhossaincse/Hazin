@@ -11,7 +11,10 @@ struct ProductItemView: View {
     var product: Product
 
     var body: some View {
-        Text("Product Item View")
+        VStack {
+            Text("Product Item View")
+        }
+        .frame(maxWidth: .infinity)
     }
 }
 
