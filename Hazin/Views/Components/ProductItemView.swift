@@ -13,6 +13,7 @@ struct ProductItemView: View {
     var body: some View {
         VStack {
             Text("Product Item View")
+                .foregroundColor(.white)
         }
         .frame(maxWidth: .infinity)
     }
